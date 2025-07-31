@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Grades {
+public class Grades2_2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter the marks from 0 to 100 for the following 5 subjects.");
