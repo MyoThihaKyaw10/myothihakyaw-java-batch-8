@@ -1,4 +1,4 @@
-package Homework_4_1;
+package Day4.Homework_4_1;
 
 public class Teacher extends Person {
     private String subject;

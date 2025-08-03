@@ -1,10 +1,10 @@
-package Homework_4_1;
+package Day4.Homework_4_2;
 
-public class Person {
+abstract class Animal {
     private String name;
     private int age;
 
-    public Person(String name, int age) {
+    public Animal(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -25,11 +25,11 @@ public class Person {
         this.age = age;
     }
 
-    public void introduce(){
-        System.out.println("Hello, my name is "+name+". I am "+age+" years old.");
+    public abstract void makeSound();
+
+    public void displayInfo(){
+        System.out.println("Name: "+getName()+" Age: "+getAge());
     }
 
-    public String getRole(){
-        return "Person";
-    }
+    public abstract void feed();
 }
