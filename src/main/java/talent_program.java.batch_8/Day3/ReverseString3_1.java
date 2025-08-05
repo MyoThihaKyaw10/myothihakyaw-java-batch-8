@@ -1,3 +1,5 @@
+package Day3;
+
 import java.util.Scanner;
 
 public class ReverseString3_1 {

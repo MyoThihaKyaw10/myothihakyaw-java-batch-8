@@ -1,3 +1,5 @@
+package Day2;
+
 import java.util.Scanner;
 
 public class DoWhileGrades2_3 {

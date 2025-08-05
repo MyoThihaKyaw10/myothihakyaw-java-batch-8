@@ -1,3 +1,5 @@
+package Day3;
+
 import java.util.Scanner;
 
 public class Factorial3_9 {

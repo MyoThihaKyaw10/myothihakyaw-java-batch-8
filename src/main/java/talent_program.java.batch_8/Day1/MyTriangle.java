@@ -1,3 +1,5 @@
+package Day1;
+
 public class MyTriangle {
     public static void main(String[] args) {
         int level = 5;

@@ -1,3 +1,5 @@
+package Day3;
+
 public class PrimeArray3_7 {
     public static void main(String[] args) {
         int[] numbers = {27, 84, 6, 59, 42, 91, 15, 73};

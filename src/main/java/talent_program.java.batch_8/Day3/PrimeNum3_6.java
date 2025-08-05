@@ -1,3 +1,5 @@
+package Day3;
+
 public class PrimeNum3_6 {
     public static void main(String[] args) {
         System.out.println("Prime numbers between 1 and 100 are:");
