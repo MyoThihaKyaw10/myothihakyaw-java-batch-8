@@ -23,12 +23,17 @@ public class ParseAndDivision {
         System.out.println("Result: "+parseAndDivide("8","0"));
         System.out.println("Result: "+parseAndDivide("abc","5"));
         System.out.println();
-
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter a value: ");
-        String x = input.nextLine();
-        System.out.println("Enter a value to divide with: ");
-        String y = input.nextLine();
-        System.out.println("Result: "+parseAndDivide(x,y));
+        String ans;
+        do {
+            System.out.println("Enter a value: ");
+            String x = input.nextLine();
+            System.out.println("Enter a value to divide with: ");
+            String y = input.nextLine();
+            System.out.println("Result: "+parseAndDivide(x,y));
+            System.out.println("Do you want to rerun the program? (Y/N)");
+            ans = input.nextLine();
+        }while (ans.equalsIgnoreCase("Y"));
+
     }
 }
